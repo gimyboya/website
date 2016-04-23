@@ -1,7 +1,7 @@
 /*
 //////////////////////////////////////////////////////
 
-FREE HTML5 TEMPLATE 
+FREE HTML5 TEMPLATE
 DESIGNED & DEVELOPED by FREEHTML5.CO
 
 //////////////////////////////////////////////////////
@@ -703,6 +703,7 @@ textarea {
   position: relative;
   z-index: 20;
   color: #ffffff;
+
 }
 @media screen and (max-width: 768px) {
   #fh5co-hero {
@@ -1131,10 +1132,10 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
   font-size: 18px;
 }
 
-/* 
+/*
 ========================================
 
-Components 
+Components
 
 ========================================
 */
