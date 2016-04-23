@@ -938,6 +938,7 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
   width: 100%;
   font-size: 13px;
   line-height: 20px;
+  background-image: url(../images/hero1.jpg);
 }
 #fh5co-footer::before {
   content: '';
@@ -947,8 +948,8 @@ body.fh5co-mobile-menu-visible #fh5co-mobile-menu {
   overflow: hidden;
   width: 100%;
   height: 350px;
-  background: #90d7ea;
-  background: #f3f8f9;
+  background: #503e4e;
+  background: #503e4e;
   z-index: -1;
   -webkit-transform: skewY(3deg);
   -moz-transform: skewY(3deg);
