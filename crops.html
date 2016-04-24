@@ -60,18 +60,18 @@
 	<!-- Theme Style -->
 	<link rel="stylesheet" href="css/style.css">
 
+
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
 	</head>
-	<body>
+	<body class="inner-page">
 
 		<!-- START #fh5co-header -->
-		<header id="fh5co-header-section" role="header" class="" style="background-color: #3a1702;">
+		<header id="fh5co-header-section" role="header" class="" >
 			<div class="container">
 
 
@@ -89,7 +89,7 @@
 							<li>
 								<a href="crops.html">Crops</a>
 							</li>
-							<li><a href="about.html">About</a></li>
+							<li><a href="About.html">About</a></li>
 							<li class="fh5co-special"><a href="registration.html">Sign up</a></li>
 						</ul>
 					</nav>
@@ -99,7 +99,20 @@
 		</header>
 
 
-<div class="fh5co-spacer fh5co-spacer-md"></div>
+		<div id="fh5co-hero">
+			<a href="#fh5co-main" class="smoothscroll fh5co-arrow to-animate hero-animate-4"><i class="ti-angle-down"></i></a>
+			<!-- End fh5co-arrow -->
+			<div class="container">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="fh5co-hero-wrap">
+						<div class="fh5co-hero-intro">
+							<h1 class="to-animate hero-animate-1">diversity is richness</h1>
+							<h2 class="to-animate hero-animate-2">Our database keep growing everyday!</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 		<div id="fh5co-main">
 
@@ -107,153 +120,59 @@
 				<div class="row">
 
 					<div class="col-md-12 animate-box">
-						<h2 class="fh5co-uppercase-heading-sm text-center">Malaysian Tropical Crop Advisory System</h2>
+						<h2 class="fh5co-uppercase-heading-sm text-center">Crops supported by our system</h2>
 						<div class="fh5co-spacer fh5co-spacer-sm"></div>
 					</div>
-					<div class="col-md-8 col-md-offset-2 animate-box">
-						<form action="#" method="post">
+					<div class="col-md-12 animate-box">
+						<div class="panel-group fh5co-accordion" id="accordion" role="tablist" aria-multiselectable="true">
+					<div class="panel panel-default ">
+						<div class="panel-heading" role="tab" id="headingOne" data-toggle="collapse" data-parent="#accordion" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+							<h4 class="panel-title">
 
-							<div class="col-md-12">
-								<div class="form-group">
-									<label for="name" class="">Length of dry season</label>
-									<input placeholder="Number of months" id="season" type="text" class="form-control input-lg">
-								</div>
+								<a class="accordion-toggle">
+									Kamehameha banana
+								</a>
+							</h4>
+						</div>
+						<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+							<div class="panel-body">
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
 							</div>
-
-							<div class="col-md-12">
-								<div class="form-group">
-									<label for="gender" class="">Flooding</label>
-									<select class="form-control input-lg" id="Location">
-									  <option>--Select flooding--</option>
-									  <option>None</option>
-									  <option>Flash flood</option>
-									  <option>Coastal flood</option>
-									  <option>River flood</option>
-									</select>
-								</div>
-							</div>
-
-							<div class="col-md-12">
-								<div class="form-group">
-									<label for="gender" class="">texture of topsoil sample</label>
-									<select class="form-control input-lg" id="texture">
-									  <option>--Select texture--</option>
-									  <option>Fine gravel</option>
-									  <option>Meduim sand</option>
-									  <option>V coarse sand</option>
-									  <option>Silt and clay</option>
-									</select>
-								</div>
-							</div>
-
-							<div class="col-md-12">
-								<div class="form-group">
-									<label for="email" class=" ">Stoniness</label>
-									<input placeholder="Percentage of stones" id="stones" type="text" class="form-control input-lg">
-								</div>
-							</div>
-
-							<div class="col-md-12">
-								<div class="form-group">
-									<label for="name" class=" ">Cr contents in soil</label>
-									<input placeholder="Cr contents (mg/kg)" id="Cr" type="text" class="form-control input-lg">
-								</div>
-							</div>
-
-							<div class="col-md-12">
-								<div class="form-group">
-									<label for="gender" class="">Drainage class</label>
-									<select class="form-control input-lg" id="drainage">
-									  <option>--Select drainage--</option>
-									  <option>Very rapidly drained</option>
-									  <option>Rapidly drained</option>
-									  <option>Well drained</option>
-									  <option>Moderately well drained</option>
-									  <option>Imperfectly drained</option>
-									  <option>Poorly drained</option>
-									  <option>Very poorly drained</option>
-									  <option>Not applicable</option>
-									</select>
-								</div>
-							</div>
-
-							<div class="col-md-12">
-								<div class="form-group">
-									<label for="name" class=" ">Organic matter content of topsoil</label>
-									<input placeholder="Percentage of organic matter" id="organic" type="text" class="form-control input-lg">
-								</div>
-							</div>
-
-							<div class="col-md-12">
-								<div class="form-group">
-									<label for="gender" class="">Avialable P of soil sample ppm</label>
-									<select class="form-control input-lg" id="p">
-									  <option>--Select Availability--</option>
-									  <option>Very Low</option>
-									  <option>Low</option>
-									  <option>Medium</option>
-									  <option>High</option>
-									  <option>Very High</option>
-									</select>
-								</div>
-							</div>
-
-							<div class="col-md-12">
-								<div class="form-group">
-									<label for="name" class=" ">Depth of soil to root impenetrable layer</label>
-									<input placeholder="Depth (cm)" id="Depth" type="text" class="form-control input-lg">
-								</div>
-							</div>
-
-							<div class="col-md-12">
-								<div class="form-group">
-									<label for="email" class=" ">Avialable MG on the soil</label>
-									<input placeholder="Avialable MG (mg/kg)" id="MG" type="text" class="form-control input-lg">
-								</div>
-							</div>
-
-							<div class="col-md-12">
-								<div class="form-group">
-									<label for="email" class=" ">Avialable K on the soil</label>
-									<input placeholder="Avialable K (mg/kg)" id="K" type="text" class="form-control input-lg">
-								</div>
-							</div>
-
-							<div class="col-md-12">
-								<div class="form-group">
-									<label for="email" class=" ">Salinity</label>
-									<input placeholder="Salinity (millimhos/cm)" id="salinity" type="text" class="form-control input-lg">
-								</div>
-							</div>
-
-							<div class="col-md-12">
-								<div class="form-group">
-									<label for="name" class=" ">Cu content of soil</label>
-									<input placeholder="Cu contents (mg/kg)" id="cu" type="text" class="form-control input-lg">
-								</div>
-							</div>
-
-							<div class="col-md-12">
-								<div class="form-group">
-									<label for="name" class=" ">Ni content of soil</label>
-									<input placeholder="Ni contents (mg/kg)" id="ni" type="text" class="form-control input-lg">
-								</div>
-							</div>
-
-							<div class="col-md-12">
-								<div class="form-group">
-								<a href="result.html" class="btn btn-primary btn-lg">Analyse my soil</a>
-
-									<input type="reset" class="btn btn-outline btn-lg " value="Reset">
-								</div>
-							</div>
-						</form>
+						</div>
 					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading collapsed" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							<h4 class="panel-title">
 
+								<a class="accordion-toggle">
+									Atomic ananas
+								</a>
+							</h4>
+						</div>
+						<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+							<div class="panel-body">
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading collapsed" role="tab" id="headingThree" data-toggle="collapse" data-parent="#accordion" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							<h4 class="panel-title">
+
+								<a class="accordion-toggle">Isotonic coconut</a>
+							</h4>
+						</div>
+						<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+							<div class="panel-body">
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
 
 				</div>
 			</div>
-			<!-- END container -->
 
 
 		</div>
@@ -301,7 +220,6 @@
 			</div>
 		</footer>
 
-
 		<!-- jQuery -->
 		<script src="js/jquery-1.10.2.min.js"></script>
 		<!-- jQuery Easing -->
@@ -323,6 +241,7 @@
 		<script src="js/jquery.parallax-scroll.min.js"></script>
 		<!-- Waypoints -->
 		<script src="js/jquery.waypoints.min.js"></script>
+
 		<!-- Main JS -->
 		<script src="js/main.js"></script>
 
